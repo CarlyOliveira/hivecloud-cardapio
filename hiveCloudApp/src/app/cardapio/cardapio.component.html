@@ -1,0 +1,31 @@
+<div class="container">
+    <div>
+        <h3>Cardapio</h3>
+    </div>
+
+    <form #cardapioForm="ngForm" (ngSubmit)="onSubmit(cardapioForm)" novalidate>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Prato</th>
+                    <th>Acompanhamentos</th>
+                    <th>Preço</th>
+                    <th>Quantidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let c of cardapioModelList">
+                    <td>{{c.nome}}</td>
+                    <td>{{c.ac1}}, {{c.ac2}}, {{c.ac3}}, {{c.ac4}}, {{c.ac5}}</td>
+                    <td>{{c.preco}}</td>
+                    <td>
+                        <input name="quantidade" [(ngModel)]="c.quantidade" type="number" min="0" required /></td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <button type="submit" class="btn btn-primary pull-right">Enviar</button>
+        </div>
+    </form>
+
+</div>
