@@ -29,5 +29,6 @@ Como compilar
 * Subir a API executando a apliacacao.
 * Importar o projeto "HiveCloudApp" no VS code utilizando open folder.
 * Abrir o terminal do VS code e executar (cd hiveCloudApp)
-* Ainda no terminal do VS code executar ng serve.
+* instale o angular pelo terminal (npm install --save @angular-devkit/build-angular)
+* Ainda no terminal do VS code suba a aplicacao (ng serve)
 
