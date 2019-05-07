@@ -32,3 +32,10 @@ Como compilar
 * instale o angular pelo terminal (npm install --save @angular-devkit/build-angular)
 * Ainda no terminal do VS code suba a aplicacao (ng serve)
 
+
+Autor
+-------
+
+Carly Oliveira
+Bachelor in Information Systems SFPC, DEPC
+https://www.linkedin.com/in/carly-christian-b216a043/
