@@ -1,8 +1,8 @@
 hivecloud-cardapio
 ===============
 
-Aplicativo web demonstraÃ§Ã£o, desenvolvido com Angular 7, JDK 8, Spring boot e banco em memoria H2.
-O objetivo dessa aplicaÃ§Ã£o é servir como uma apresentação introdutoria sobre as tecnologias utilizadas.
+Aplicativo web demonstracao, desenvolvido com Angular 7, JDK 8, Spring boot e banco em memoria H2.
+O objetivo dessa aplicao é servir como uma apresentação introdutoria sobre as tecnologias utilizadas.
 
 Tecnologias e Ferramentas
 -------
